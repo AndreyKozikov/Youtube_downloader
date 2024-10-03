@@ -4,9 +4,9 @@
 a = Analysis(
     ['gui.py'],
     pathex=[],
-    binaries=[],
+    binaries=[('ffmpeg.exe', '.')],
     datas=[],
-    hiddenimports=['yt_dlp'],
+    hiddenimports=['yt_dlp', 'ffmpeg'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
